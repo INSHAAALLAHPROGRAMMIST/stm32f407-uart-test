@@ -1,0 +1,22 @@
+# STM32CubeIDE/ECLIPSE
+.settings/
+.cproject
+.mxproject
+.project
+.idea/
+.vscode/
+
+# Build artifacts
+Debug/
+Release/
+*.elf
+*.hex
+*.bin
+*.map
+*.list
+*.d
+*.o
+
+# C/C++ build files
+*.su
+*.bak
