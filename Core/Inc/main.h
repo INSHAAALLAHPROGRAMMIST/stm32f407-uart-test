@@ -57,6 +57,30 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define M1_ENA_Pin GPIO_PIN_0
+#define M1_ENA_GPIO_Port GPIOD
+#define M2_ENA_Pin GPIO_PIN_1
+#define M2_ENA_GPIO_Port GPIOD
+#define M3_ENA_Pin GPIO_PIN_4
+#define M3_ENA_GPIO_Port GPIOD
+#define M4_ENA_Pin GPIO_PIN_5
+#define M4_ENA_GPIO_Port GPIOD
+#define M3_PUL_Pin GPIO_PIN_6
+#define M3_PUL_GPIO_Port GPIOD
+#define M4_PUL_Pin GPIO_PIN_7
+#define M4_PUL_GPIO_Port GPIOD
+#define M3_DIR_Pin GPIO_PIN_6
+#define M3_DIR_GPIO_Port GPIOB
+#define M4_DIR_Pin GPIO_PIN_7
+#define M4_DIR_GPIO_Port GPIOB
+#define M1_PUL_Pin GPIO_PIN_8
+#define M1_PUL_GPIO_Port GPIOB
+#define M2_PUL_Pin GPIO_PIN_9
+#define M2_PUL_GPIO_Port GPIOB
+#define M1_DIR_Pin GPIO_PIN_0
+#define M1_DIR_GPIO_Port GPIOE
+#define M2_DIR_Pin GPIO_PIN_1
+#define M2_DIR_GPIO_Port GPIOE
 
 /* USER CODE BEGIN Private defines */
 #define uart huart1
